@@ -12,18 +12,17 @@ import click
 @click.argument("a", type=int)
 @click.argument("b", type=int)
 def add_cli(a, b):
-    
+
     """ADD two Numbers
-    
+
     Args:
         a (int): first number
         b (int): second number
     Example:
-        $ ./main add 1 2    
+        $ ./main add 1 2
     """
     click.echo(add(a, b))
 
-    var=
 
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
